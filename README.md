@@ -1,5 +1,5 @@
 # <b>Conditional-Random-Fields</b>
-Project Module 3 Bioinformatics I :coffee:
+Project Module 3 Bioinformatics I :computer:
 
 ### About the repository
 This repository contains t
