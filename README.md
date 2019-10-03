@@ -1,10 +1,10 @@
 # <b>Conditional-Random-Fields</b>
 Project Module 3 Bioinformatics I
-***
 
 ### About the repository
 This repository contains 
 
+***
 ## Presentation
 
 What things you need to install the software and how to install them
