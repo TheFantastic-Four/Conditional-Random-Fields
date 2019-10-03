@@ -1,0 +1,49 @@
+---
+title: "Graficas"
+author: "Emmanuel Castro"
+date: "2 de octubre de 2019"
+output: html_document
+---
+```{r}
+PrecisionC <- c(0.914,0.93,0.945)
+F1_scoreC <- c(0.831,0.851,0.864)
+RecallC <- c(0.762,0.785,0.795)
+
+Data_set<- c(30,50,70)
+
+F1_ScoreF4<- c(0.834,0.858,0.883)
+RecallF4<- c(0.762,0.8,0.831)
+PrecisionF4 <- c(0.922,0.926,0.942)
+```
+
+```{r}
+Precic_ITER <- c(0.92,0.921,0.938)
+Recall_ITER <- c(0.762,0.782,0.808)
+F1_ITER <- c(0.833, 0.846,0.868)
+
+F1_LEM <- c(0.834,0.861,0.872)
+Recall_LEM <- c(0.764,0.797,0.810)
+Preci_LEM <- c(0.917,0.937,0.943)
+```
+
+
+```{r}
+library(reshape2)
+library(ggplot2)
+df_F1<- data.frame(x=Data_set, F1_ScoreC=F1_scoreC, F1_ScoreF4=F1_ScoreF4,F1_IT=F1_ITER, F1_LEM=F1_LEM)
+df2_F1 <- melt(df_F1, id="x")
+Plot_F1<- ggplot(data = df2_F1, aes(x=x, y=value)) + geom_line(aes(colour=variable))
+Plot_F1 + ggtitle ("F1-Scores") + ylab("Scores") + xlab("Size Data_set")
+
+df_Recall<- data.frame(x=Data_set, RecallC=RecallC, RecallF4=RecallF4, RecallIT=Recall_ITER , RecallLE=Recall_LEM)
+df2_Recall <- melt(df_Recall, id="x")
+Plot_Recall<-ggplot(data = df2_Recall, aes(x=x, y=value))+ geom_line(aes(colour=variable))
+Plot_Recall + ggtitle ("Recall") + ylab("Scores") + xlab("Size Data_set")
+
+df_Precision<- data.frame(x=Data_set, PrecisionC=PrecisionC, PrecisionF4=PrecisionF4, PrecisiITER= Precic_ITER, PrecisiLEM=Preci_LEM )
+df2_Precision <- melt(df_Precision, id="x")
+Plot_Precision<-ggplot(data = df2_Precision, aes(x=x, y=value))+ geom_line(aes(colour=variable))
+Plot_Precision + ggtitle ("Precision") + ylab("Scores") + xlab("Size Data_set")
+
+```
+
