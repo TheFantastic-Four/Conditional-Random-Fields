@@ -13,6 +13,8 @@ To being able to test this CFR you must have:
 * The script from this repository
 * Training and test datasets
 
+* We only use R to make graphics of our results. 
+
 ### Running the tests
 
 Here we show you how to run the script:
