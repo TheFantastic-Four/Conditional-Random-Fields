@@ -1,5 +1,5 @@
 ---
-title: "No se"
+title: "Graficas"
 author: "Emmanuel Castro"
 date: "2 de octubre de 2019"
 output: html_document
