@@ -1,8 +1,8 @@
-#### <b>Conditional-Random-Fields</b>
+# <b>Conditional-Random-Fields</b>
 Project Module 3 Bioinformatics I
 
 ### About the repository
-This repository contains 
+This repository contains t
 
 ***
 ## Presentation
@@ -28,16 +28,13 @@ Give an example
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Francisco Emmanuel Castañeda Castro**
+* **Miguel Alberto Pantoja Zepeda**
+* **Itzel Fernanda Pineda Valentino**
+* **Karla Zeferino García**
 
 ## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project has all rights reserved.
 
 ## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+The authors thank Dr. Carlos Méndez for giving us the basic tools and knowledge to achieve this work.
