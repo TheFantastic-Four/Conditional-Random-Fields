@@ -1,17 +1,12 @@
 # <b>Conditional-Random-Fields</b>
-Project Module 3 Bioinformatics I :computer:
-
-### About the repository
-This repository contains t
+Project Module 3 Bioinformatics I :computer: :graphic:
 
 ***
-## Presentation
-
-What things you need to install the software and how to install them
-
-### Description
+## About the repository
+This repository contains all the documents we used to make a CRF able to identify gene names from a text, specially from various abstracts of different papers. It was made following certain methods and features for the training and testing of the CFR in order to obtain a high f-score for the new predictions.  
 
 ### Requisites
+To being able to test the CFR,
 
 ### Running the tests
 
