@@ -1,7 +1,5 @@
-# Conditional-Random-Fields
-Proyecto Módulo 3 de Bioinformática I
-Implementación de un CFR para obtener nombres de genes en abstracts de artículos científicos. 
-
+# <b>Conditional-Random-Fields</b>
+Project Module 3 Bioinformatics I
 ***
 
 ## Iniciando
