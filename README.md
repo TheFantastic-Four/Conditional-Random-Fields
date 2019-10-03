@@ -6,18 +6,20 @@ Project Module 3 Bioinformatics I :computer: :chart_with_upwards_trend:
 This repository contains all the documents we used to make a CRF able to identify gene names from a text, specially from various abstracts of different papers. It was made following certain methods and features for the training and testing of the CFR in order to obtain a high f-score for the new predictions.  
 
 ### Requisites
-To being able to test the CFR,
+To being able to test this CFR you must have:
+
+* Python
+* Linux/Unix
+* The script from this repository
+* Training and test datasets
 
 ### Running the tests
 
-Explain how to run the automated tests for this system
-
+Here we show you how to run the script:
 
 ```
 Give an example
 ```
-
-### Built With
 
 *** 
 
