@@ -20,7 +20,7 @@ To being able to test this CFR you must have:
 Here we show you how to run the script:
 
 ```
-Give an example
+python training-validation-v3.py  --inputPath /export/space1/users/mpantoja/3_Sem/BioInf/CRF_Tarea/data-sets/ --trainingFile training-data-set-70.txt --testFile test-data-set-30.txt --outputPath ./training_validation_v3.py
 ```
 
 *** 
