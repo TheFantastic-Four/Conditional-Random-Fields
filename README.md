@@ -1,4 +1,4 @@
-# <b>Conditional-Random-Fields</b>
+#### <b>Conditional-Random-Fields</b>
 Project Module 3 Bioinformatics I
 
 ### About the repository
