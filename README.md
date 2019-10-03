@@ -1,5 +1,5 @@
 # <b>Conditional-Random-Fields</b>
-Project Module 3 Bioinformatics I :computer: :graphic:
+Project Module 3 Bioinformatics I :computer: :chart_with_upper_trends:
 
 ***
 ## About the repository
